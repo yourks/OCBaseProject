@@ -1,0 +1,17 @@
+
+
+platform :ios, '8.0'
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+target 'OCBaseProject' do
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'Masonry'
+    pod 'SSZipArchive'
+    pod 'iCarousel'
+    pod 'SDWebImage'
+    pod 'BlocksKit', '~> 2.2.5'
+    pod 'FMDB'
+    pod 'GLPubSub'
+    pod 'MJExtension'	
+    pod 'MJRefresh'
+end
